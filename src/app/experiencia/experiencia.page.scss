@@ -1,0 +1,15 @@
+.video-container {
+    position: relative;
+    width: 100%; /* Ancho completo del contenedor */
+    padding-bottom: 56.25%; /* Proporción 16:9 */
+    height: 0; /* Altura inicial a 0 */
+    overflow: hidden; /* Oculta cualquier contenido que sobresalga */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ancho del iframe 100% del contenedor */
+    height: 100%; /* Altura del iframe 100% del contenedor */
+}
